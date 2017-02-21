@@ -397,6 +397,7 @@ export default class ImageViewer extends React.Component<typings.PropsDefine, ty
                         duration: 100,
                     }).start()
                 }
+                this.props.onScale(this.scale);
 
                 // 水平溢出量置空
                 this.horizontalWholeOuterCounter = 0

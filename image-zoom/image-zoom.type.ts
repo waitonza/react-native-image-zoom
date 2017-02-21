@@ -82,6 +82,7 @@ export interface PropsDefine extends ReactNative.ViewProperties {
      * 双击的回调
      */
     onDoubleClick?: ()=>void
+    onScale?: (size: number)=>void
 
     /**
      * 透传
@@ -134,4 +135,3 @@ export class State implements StateDefine {
     centerX = 0.5
     centerY = 0.5
 }
-                
